@@ -16,7 +16,7 @@ Le package `go-sendtext` est une bibliothèque en Go conçue pour faciliter l'in
 Pour installer le package, vous pouvez utiliser `go get` :
 
 ```bash
-go get -u github.com/your_username/go-sendtext
+go get -u github.com/abdotop/go-sendtext
 ```
 
 ## Utilisation
@@ -28,7 +28,7 @@ package main
 
 import (
     "log"
-    "github.com/your_username/go-sendtext"
+    "github.com/abdotop/go-sendtext"
 )
 
 func main() {
