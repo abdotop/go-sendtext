@@ -1,6 +1,6 @@
 # go-sendtext
 
-![SendText Logo](path_to_logo.png)
+![SendText Logo](https://github.com/abdotop/go-sendtext/blob/main/sendtext-logo.png)
 
 Le package `go-sendtext` est une bibliothèque en Go conçue pour faciliter l'intégration de l'API Sendtext dans des applications Web ou mobiles. Ce SDK permet aux développeurs de communiquer facilement avec l'API Sendtext pour envoyer des SMS, gérer des campagnes SMS, consulter le solde SMS et l'historique des envois.
 
