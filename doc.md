@@ -19,7 +19,7 @@ Start by creating a client instance using your API keys:
 ```go
     import "github.com/abdotop/go-sendtext"
 
-    client := sendtextsdk.NewClient("your_api_key", "your_api_secret")
+    client := sendtext.NewClient("your_api_key", "your_api_secret")
 ```
 
 ## Data Structures
@@ -140,7 +140,7 @@ Is a list of HistoryItem, representing the complete SMS sending history.
 Send an SMS to a specific number.
 
 ```go
-    smsReq := sendtextsdk.SMSRequest{
+    smsReq := sendtext.SMSRequest{
         SenderName: "Bonlux SN",
         SMSType: "normal",
         Phone: "221763983535",
@@ -159,7 +159,7 @@ Send an SMS to a specific number.
 Send an SMS campaign to multiple numbers.
 
 ```go
-    campaignReq := sendtextsdk.CampaignRequest{
+    campaignReq := sendtext.CampaignRequest{
         SenderName: "Ecole SN",
         SMSType: "flash",
         CampaignName: "Admission 2025",
